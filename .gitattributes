@@ -1,0 +1,5 @@
+# Ensure that index, swap, and acumen config PHP files are not overwritten from other branches
+index.php merge=ours
+index_swap.php merge=ours
+application/config/acumen.php merge=ours
+
